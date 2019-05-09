@@ -14,3 +14,5 @@
 ## stage5
 如何写一个`plugin`
 执行 `npm run webpack5`
+## stage6
+tree shaking
