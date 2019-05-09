@@ -18,3 +18,5 @@
 tree shaking
 ## stage7
 使用dlls插件进行拆解打包
+## stage8
+使用happy插件多进程处理
