@@ -23,6 +23,7 @@
     "webpack3": "webpack --config webpack3.config.js",
     "webpack4": "webpack --config webpack4.config.js",
     "webpack5": "webpack --config webpack5.config.js",
+    "webpack6": "webpack --config webpack6.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
