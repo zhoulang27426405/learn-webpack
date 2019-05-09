@@ -16,3 +16,5 @@
 执行 `npm run webpack5`
 ## stage6
 tree shaking
+## stage7
+使用dlls插件进行拆解打包
