@@ -20,3 +20,13 @@ tree shaking
 使用dlls插件进行拆解打包
 ## stage8
 使用happy插件多进程处理
+## stage9
+性能优化建议：
+1.先进行性能分析
+-使用 `speed-measure-webpack-plugin` 插件找出用时慢的loader和plugin
+-使用 `webpack-bundle-analyzer` 插件分析bundle
+2.升级最新的 webpack 版本。webpack自身会进行性能优化
+3.将loader应用于更少的模块
+4.减少resolve.extensions的类目,因为他们会增加文件系统调用的次数
+5.减少编译体积 small = faster
+6.生产环境不要使用source-map
